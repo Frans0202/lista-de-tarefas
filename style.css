@@ -1,0 +1,222 @@
+body {
+    background-color: #4c6fb1;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #0c0950;
+}
+
+.ph-check-fat{
+font-size: 40px;
+color: rgb(92, 243, 173);
+padding-right: 5px;
+}
+
+.to, .do {
+    font-size: 40px;
+    font-family: "inter", sans-serif;
+}
+
+.to{
+    color: #6EEBF7;
+}
+
+.do {
+    color: #5B9DE9;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.pesquisa {
+    width: 618px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #f0edf2;
+    border-color: #e0dce4;
+
+}
+
+.criar {
+    width: 115px;
+    background-color: #261FB3;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.criar:hover {
+    background-color: #1b26a0;
+}
+
+.plusCircle {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    max-width: 800px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    width: 758px;
+}
+
+.quantidade1,
+.quantidade2 {
+    background-color: #51BEF5;
+    color: #0e4f70;
+    border-radius: 50%;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 24px;
+    margin: 0px;
+    padding: 0px 8px;
+}
+
+.quantidade2::dark {
+    background-color: #cafaa2;
+    color: #215037;
+
+}
+
+.TarefasC,
+.TarefasConc,
+.naoTem {
+    color: #f8f8f8;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.naoTem {
+    font-size: 15px;
+    padding-bottom: 7px;
+    color: #54d3c2;
+}
+
+.crieTaref {
+    color: #abe07f;
+    font-family: "inter", sans-serif;
+    font-size: 15.7px;
+}
+
+/* Precisa ser deletado após adicionar uma tarefa */
+
+.line {
+    width: 760px;
+    height: 1px;
+    background-color: #074173;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.clipBoard {
+    color: #0a3a52;
+    font-size: 55px;
+    justify-self: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.listOpen,
+.listClosed {
+    background-color: #e0dce4;
+    width: 758px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #e0dce4;
+    border-width: 2px;
+    padding: 25px 0px;
+}
+
+.listClosed {
+    background-color: #f0edf2;
+}
+
+.listClosed span {
+    text-decoration: line-through;
+}
+
+.circle,
+.circle2 {
+    font-size: 20px;
+    align-self: center;
+    padding-left: 20px;
+    color: #1559a7;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.ph-check-circle {
+    color: #159e80;
+}
+
+.descricao,
+.descricao2 {
+    font-family: "inter", sans-serif;
+    color: #023149;
+}
+
+.descricao2 {
+    text-decoration-line: line-through;
+}
+
+
+.trash {
+    font-size: 20px;
+    color: #103fce;
+    padding-right: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: #03294b;
+}
+
+ul {
+    padding: 0px;
+}
+
+.expense-info {
+    flex: 1;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://phosphoricons.com?q=%22list%22&weight=%22regular%22&color=%22ddd2ef%22">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <!-- ICONE -->
+        <div class="flex">
+            <div>
+                <i class="ph ph-check-fat"></i>
+            </div>
+        </div>
+        <!-- UMA LETRA -->
+        <div class="flex">
+            <p class="to">to</p>
+            <p class="do">do</p>
+        </div>
+
+        <!-- OUTRA LETRA -->
+        <!-- <img src="images/logo.png" alt="" class="logo"> -->
+    </div>
+
+    <!-- Barra de pesquisa -->
+    <form>
+        <div class="search">
+            <input type="text" class="pesquisa" placeholder="Adicione uma nova tarefa" id="expense">
+            <button class="criar" type="submit">
+                <div class="flex">
+                    <span>Criar</span>
+                    <div class="plusCircle">
+                        <i class="ph ph-plus-circle"></i>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </form>
+
+    <!-- Div de tarefas e notificações -->
+    <div class="lista">
+        <!-- Tarefas criadas -->
+        <!-- <div class="flex"> -->
+        <div class="flex caos">
+            <!-- <span class="TarefasC">Tarefas criadas</span> -->
+
+            <!-- </div> -->
+        </div>
+        <!-- Concluídas -->
+        <div class="flex caos2">
+            <!-- <span class="TarefasConc">Concluídas</span> -->
+        </div>
+    </div>
+
+
+
+
+    <ul id="expense-list">
+        <!-- Exemplo da estrutura HTML de um item de despesa. -->
+        <!-- <li class="expense">
+            <div class="listOpen">
+                <div class="circle">
+                    <i class="ph ph-circle"></i>
+                </div>
+
+                <div class="expense-info">
+                    <span class="descricao"> Às vezes, a urna inteira é uma massa de autores livres, e nem sempre é
+                        feia.
+                        Você
+                        pode comer ou beber, mas a fome permanece intacta.</span>
+                </div>
+
+                <div class="trash" style="background-color: red;">
+                    <i class="ph ph-trash"></i>
+                </div>
+            </div>
+        </li> -->
+    </ul>
+
+    <!-- Listas fechadas -->
+    <!-- <ul>
+            <div class="listClosed">
+                <div class="circle2">
+                    <i class="ph-fill ph-check-circle"></i>
+                </div>
+
+                <span class="descricao2"> Às vezes, a urna inteira é uma massa de autores livres, e nem sempre é feia.
+                    Você
+                    pode comer ou beber, mas a fome permanece intacta.</span>
+
+                <div class="trash">
+                    <i class="ph ph-trash"></i>
+                </div>
+            </div>
+    </ul> -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
